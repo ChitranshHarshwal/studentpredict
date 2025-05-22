@@ -4,6 +4,23 @@ This project analyzes the **Students Performance in Exams** dataset to understan
 
 ---
 
+## 🔁 ML Lifecycle Overview
+
+![ML Pipeline Flowchart](assets/ml_pipeline_flow.png)
+
+This diagram summarizes the ML workflow used in this project. Here's how each phase maps directly to the files/modules in the repo:
+
+| **ML Lifecycle Stage**     | **What It Does**                                         | **Implemented In**                             |
+|----------------------------|----------------------------------------------------------|------------------------------------------------|
+| 🧹 Data Preparation        | EDA, cleaning, feature selection                         | `data_ingestion.py`, `data_transformation.py` |
+| 🧠 Training Model          | Model selection, tuning, cross-validation                | `model_trainer.py`                            |
+| 📊 Evaluation              | Metrics, comparison, error analysis                      | `model_trainer.py`, `utils.py`                |
+| 🔁 Prediction Pipeline     | Reuse model + preprocessor for real-time predictions     | `predict_pipeline.py`                         |
+| 🌐 Web Interface           | Collects user input, returns predictions                 | `app.py`, `templates/home.html`               |
+
+---
+
+
 ## 📊 Dataset Overview
 
 **Source:** [Kaggle - Students Performance in Exams]
