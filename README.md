@@ -91,6 +91,12 @@ The **R² score** (coefficient of determination) is a statistical measure that e
 
 ---
 
+## 📌 Business Impact
+
+- Enhanced Decision-Making: Enabled educators to identify students needing additional support.
+- Resource Optimization: Assisted in allocating resources effectively based on predicted performance.
+- Improved Outcomes: Facilitated targeted interventions, potentially leading to improved student performance
+
 ## 📌 Conclusion
 
 By using a range of regression models and a clean ML pipeline architecture, we were able to build a reliable predictor of student math performance. The insights gained can help educators and policymakers tailor interventions to improve educational outcomes.
